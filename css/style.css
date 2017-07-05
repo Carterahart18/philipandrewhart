@@ -140,6 +140,24 @@ img {
 	width: 200px;
 }
 
+.about {
+/*	width: 500px;	*/
+}
+
+#profilepic {
+	float: right;
+	margin: 0px 50px 20px 50px;
+	width: 300px;
+	border-radius: 5px;
+	border: solid 2px #555;
+}
+
+#profilepic {
+	position: relative;
+	top: 0px;
+/*	float: right;*/
+}
+
 
 #galleryMenu {
 	position: absolute;
@@ -326,6 +344,8 @@ img {
 	-ms-user-select: none;
 	-moz-user-select: none;
 	-webkit-user-select: none;
+	
+
 	
 /*
 	background: var(--menu-gradient-2);
